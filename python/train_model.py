@@ -65,7 +65,7 @@ def train():
 
     # 故障履歴を読み込んでラベル付与
     failure_df = pd.read_csv("/data/failure_history.csv")
-    failure_df["failure_date"] = pd.to_datetime(failure_df["failure_date"])
+    failure_df["failure_date"] = pd.to_datetime(failure_df["failure_date"], utc=True)
 
     print("=== 特徴量を生成中 ===")
     features = generate_features(df)
