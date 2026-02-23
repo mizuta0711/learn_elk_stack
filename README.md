@@ -37,6 +37,8 @@
 - Docker にメモリ 8GB 以上を割り当て済み（推奨 16GB）
 - ディスク空き容量 20GB 以上
 
+> Docker Desktop がない場合は、[GitHub Codespaces でブラウザだけで学習](docs/03_GitHub_Codespacesでの学習.md)することもできる。
+
 ## クイックスタート
 
 ```bash
@@ -93,6 +95,7 @@ docker compose restart kibana
 │   ├── generate_sample_data.py # サンプルデータ生成
 │   ├── train_model.py          # ML 学習
 │   └── batch_inference.py      # バッチ推論
+├── .devcontainer/              # GitHub Codespaces 設定
 ├── data/                       # センサーデータ（CSV）
 └── docs/                       # ドキュメント
 ```
@@ -136,6 +139,7 @@ docker compose down -v
 - [概要と目的](docs/00_概要と目的.md) — プロジェクトの目的・ゴールイメージ・Azure 構成との対応
 - [学習手順](docs/01_学習手順.md) — ステップバイステップの操作手順
 - [無料オンライン環境の調査](docs/02_無料オンライン環境の調査.md) — GitHub Codespaces 等の調査結果
+- [GitHub Codespaces での学習](docs/03_GitHub_Codespacesでの学習.md) — ブラウザだけで学習する方法
 
 ## 注意事項
 
