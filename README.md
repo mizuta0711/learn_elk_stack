@@ -34,8 +34,10 @@
 ## 前提条件
 
 - Docker Desktop がインストール済み
-- Docker にメモリ 8GB 以上を割り当て済み（推奨 16GB）
+- ホスト PC のメモリ **8GB 以上**（推奨 16GB）
 - ディスク空き容量 20GB 以上
+
+> **メモリ 8GB の PC でも動作可能**。ただし `.env` のメモリ設定を下げる必要がある。詳しくは [.env.sample](.env.sample) のコメントを参照。
 
 > Docker Desktop がない場合は、[GitHub Codespaces でブラウザだけで学習](docs/03_GitHub_Codespacesでの学習.md)することもできる。
 
@@ -173,7 +175,7 @@ docker compose down -v
 
 - `.env` にパスワードが記載されているため、`.gitignore` で除外済み。`.env.sample` をコピーして使用すること
 - Elasticsearch ML（X-Pack）は **Trial ライセンス（30日間）**。期限切れ後は `docker compose down -v` で再セットアップが必要
-- Docker に最低 **8GB のメモリ**を割り当てること（推奨 16GB）
+- ホスト PC のメモリは **8GB 以上**が必要（推奨 16GB）。8GB の場合は `.env` のメモリ設定を下げること
 
 ## 改訂履歴
 
