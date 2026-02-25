@@ -167,6 +167,7 @@ docker compose down -v
 | [今後の進め方](docs/03_今後の進め方.md) | 自社データでの実践、本番化へのロードマップ | 実践に進む人 |
 | [無料オンライン環境の調査](docs/90_無料オンライン環境の調査.md) | GitHub Codespaces 等の調査結果 | 参考資料 |
 | [GitHub Codespaces での学習](docs/91_GitHub_Codespacesでの学習.md) | ブラウザだけで学習する方法 | Docker Desktop がない場合 |
+| [Podman での構築](docs/92_podmanでの構築.md) | Windows 11 + Podman で構築する手順 | Docker Desktop を使わない場合 |
 
 ## 注意事項
 
@@ -184,3 +185,4 @@ docker compose down -v
 | 2026-02-23 | 学習手順を Kibana 実画面に合わせて修正（Step 3 ML ウィザード、Step 5 ダッシュボード） |
 | 2026-02-23 | Step 6 アラート解説を充実、Python ML のバグ修正（Dockerfile / train_model.py） |
 | 2026-02-23 | 理解を深めるドキュメント（02）、今後の進め方ドキュメント（03）を追加 |
+| 2026-02-26 | Windows 11 + Podman での構築手順（92）を追加 |
